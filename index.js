@@ -17,3 +17,4 @@ window.alert(`${message} ${allNums}`);
 
 console.log(allNums);
 console.log(practice);
+
