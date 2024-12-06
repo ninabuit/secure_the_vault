@@ -1,24 +1,19 @@
-//I need to set three variables using a calculation
-//I need the variables to result in the answer to the calculation
-//I need to create a string for the user saying "You have received this message because you have been chosen to open an important vault. Here is the secret combination:"
-//I need to create a dialogue box displaying the vault code 
+/* 
+- I need to create an alert message
+- alert message needs to be a string that says "You have received this 
+message because you have been chosen to open an important vault. 
+Here is the secret combination:"
+- I need to create 3 different variables that equal 10, 40 & 39
+- I need to use 3 a arithmetic operators for each variavble
+*/ 
 
-// create calculation that will result in 10, 40, 39
+const firstNum = 5 * 2;
+const secondNum = 20 + 20;
+const thirdNum = 40 - 1;
+const message = `You have received this message because you have been chosen to open an important vault. Here is the secret combination:`;
+const allNums = (`${firstNum} ${secondNum} ${thirdNum}`);
+const practice = firstNum + 2;
+window.alert(`${message} ${allNums}`);
 
-//first calc
-const firstCalc = 5 * 2;
-
-//second calc
-const secondCalc = 20 + 20;
-
-//third calc
-const thirdCalc = 40 - 1;
-
-// create display message
-const theMessage = "You have received this message because you have been chosen to open an important vault. Here is the secret combination:"
-
-// create dialoge box
-alert (theMessage + firstCalc + "," + secondCalc + "," + thirdCalc)
-
-// message discribing what this is 
-console.log ("block 7 workshop")
+console.log(allNums);
+console.log(practice);
